@@ -1,0 +1,487 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+	width: 100%;
+	margin: auto;
+}
+
+/* Encabezado */
+
+header{
+	width: 100%;
+	background-color:rgba(221 ,43 ,127 ,0.5);
+  	position: fixed;
+ 	z-index: 10;
+
+}
+
+.menunavegacion {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+
+
+}
+
+.logo{
+	width: 100px;
+	padding: 1em 0;
+}
+
+.menu {
+	float: right;
+
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 0 11px;
+	
+}
+
+.menu a:hover{
+	color: black;
+}
+
+/* Banner */
+
+.banner {
+	width: 100%;
+	height: 720px;
+	background-image: url(../img/audifonos.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+
+.banner > div{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(49, 45, 45, 0,3);
+
+}
+
+.llamado {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	justify-content: center;
+	height: 100%;
+}
+
+.llamado h2{
+	font-size: 3em;
+	width: 100%;
+	color: white;
+	padding: 0 1em;
+	margin-bottom: 0.5em;
+	font-style: normal;
+	font-weight: 100;
+	text-shadow: 5px 5px 30px black;
+}
+
+.llamado a{
+	font-size: 20px;
+	text-decoration:none;
+	background-color: #DD2B7F;
+	padding: 8px;
+	color: white;
+	max-width: 300px;
+	font-style: normal;
+	font-weight: 100;
+	border-radius: 6px;
+}
+
+.llamado a:hover{
+	background-color: black;
+}
+
+/* Quienes Somos */
+
+.quees > .contenedor {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.fotonina {
+	width: 100%;
+	max-width: 460px;
+	padding: 0;
+}
+
+.fotonina img {
+	width: 100%;
+	padding: 0;
+}
+
+.texto {
+	width: 100%;
+	text-align: center;
+	max-width: 460px;
+	padding: 20px 30px;
+}
+
+.texto h2 {
+	color: #DD2B7F;
+	padding-bottom: 20px;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+.texto p {
+	color: #707070;
+	padding: 20px 0px;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.texto p:nth-child(4){
+	color: #707070;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 100;
+}
+
+/* Muy pronto */
+
+
+
+.pronto {
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/ninonina.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+.pronto > div {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(221,43,127,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(221,43,127,1)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(221,43,127,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(221,43,127,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(221,43,127,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(221,43,127,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#dd2b7f', GradientType=0 );
+}
+
+.muypronto {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	justify-content: center;
+	height: 100%;
+}
+
+.muypronto h2 {
+	font-size: 2em;
+	width: 100%;
+	color: white;
+	padding: 0 1em;
+	margin-bottom: 0.5em;
+	font-style: normal;
+	font-weight: 100;
+	text-shadow: 5px 5px 30px black;
+}
+
+.muypronto a{
+font-size: 1em;
+	text-decoration:none;
+	background-color: #DD2B7F;
+	padding: 8px;
+	color: white;
+	max-width: 300px;
+	font-style: normal;
+	font-weight: 100;
+	border-radius: 6px;
+}
+
+.muypronto a:hover {
+	background-color: black;
+}
+
+/* Redes Sociales*/
+
+.redeslogo {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.redeslogo h2 {
+	width: 100%;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	padding: 30px 10px 5px 20px;
+}
+
+.redeslogo img {
+	width: 90%;
+	align-items: center;
+	padding: 40px 3px ;
+}
+
+/* Contacto*/
+
+.contacto {
+	background-color: #DD2B7F;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.txcontac {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	max-width: 500px;
+}
+
+.txcontac h2 {
+	width: 100%;
+	color: white;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	font-size: 3em;
+	padding: 10px 20px;
+}
+
+.txcontac p {
+	width: 100%;
+	color: white;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 10px 20px;
+}
+
+.fomulariof {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	max-width: 500px;
+	margin-bottom: 40px;
+}
+
+.fomulariof input {
+	width: 100%;
+	padding: 8px 20px;
+	margin: 10px 20px;
+	font-size: 15px;
+}
+
+.fomulariof textarea {
+	width: 100%;
+	padding: 8px 20px;
+	margin: 10px 20px;
+	font-size: 15px;
+}
+
+.botones {
+	width: 100%;
+	max-width: 500px;
+	background-color: black;
+	padding: 20px;
+	color: white;
+	border: none;
+
+}
+/* Footer */
+
+footer {
+	background-color: black;
+}
+
+.bottom p{
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px 0px;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 921px){
+
+	/* Encabezado */
+
+	.logo {
+		padding:20px;
+		width: 15em;
+	}
+
+	.menu {
+		float: right;
+		right: 0;
+		position: absolute;
+	}
+
+	.menu a{
+		font-size: 15px;
+		text-align: right;
+	}
+
+	.menunavegacion {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	/* Banner */
+
+	.llamado {
+		display: flex;
+		flex-wrap:wrap;
+		align-items: left !important;
+	}
+
+	.llamado h2{
+		font-size: 4em;
+		text-align: left;
+		max-width: 500px;
+	}
+
+	.llamado a{
+		font-size: 2em;
+		padding: 8px;
+		font-style: normal;
+		font-weight: 100;
+		margin-left: 2em;
+	}
+
+	/* Quienes Somos */
+
+	.texto {
+		padding: 200px 30px 0px 0px;
+	}
+
+	.texto h2 {
+		font-size: 50px;
+		text-align: left;
+	}
+
+	.texto p {
+		font-size: 25px;
+		text-align: left;
+	}
+
+	.texto p:nth-child(4){
+		text-align: right;
+	}
+
+	/* Muy Pronto */
+
+		.muypronto {
+		align-items: center;
+	}
+	
+	.muypronto h2 {
+		font-size: 4em;
+	}
+
+	.muypronto a{
+		font-size: 2em;
+		padding: 8px;
+		font-style: normal;
+		font-weight: 100;
+		margin-left: 2em;
+	}
+
+
+	/* Redes Sociales */
+	
+	.redeslogo h2 {
+		width: 100%;
+		font-style: normal;
+		font-weight: 100;
+		text-align: center;
+		padding: 100px 50px 50px 50px;
+		font-size: 3em;
+	}
+
+	.redeslogo img {
+		width: 100%;
+		align-items: center;
+		padding: 30px 50px ;
+		padding-bottom: 100px;
+	}
+
+	.contacto {
+		padding-right: 50px;
+	}
+
+	.txcontac h2 {
+		text-align: left;
+	}
+
+	.txcontac p {
+		text-align: left;
+	}
+	.fomulariof {
+		padding-left: 50px;
+		padding-top: 60px;
+	}
+}
+	
+@media all and (max-width: 920px){
+
+	.menu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		max-width: 500px;
+		margin: auto;
+		padding: 1em;
+	}
+
+	.menu a{
+		font-size: 0.69em;
+		justify-content: space-between;
+		margin: auto;
+	}
+
+	.logo {
+		margin: auto;
+		width: 8em;
+	}
+
+	.llamado {
+		align-items: center;
+	}
+
+	.muypronto {
+		align-items: center;
+	}
+}
